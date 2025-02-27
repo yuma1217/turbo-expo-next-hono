@@ -9,7 +9,8 @@
 		"ios": "expo start --ios",
 		"web": "expo start --web",
 		"test": "jest --watchAll",
-		"lint": "expo lint"
+		"lint": "expo lint",
+		"clean": "rm -rf node_modules && rm -rf .expo"
 	},
 	"jest": {
 		"preset": "jest-expo"
